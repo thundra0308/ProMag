@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--TODO (Step 1: Design an item for the card list.)-->
+<!--START-->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#2B2B2B"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="@dimen/item_card_content_margin"
+    android:background="?attr/selectableItemBackground"
+    android:elevation="2dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/view_label_color"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_card_label_height"
+            android:visibility="gone"
+            tools:background="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_card_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/item_card_name_text_padding"
+            android:textSize="@dimen/item_card_name_text_size"
+            tools:text="Card Name" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvcardselectedmemberslist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/card_details_value_marginTop"
+            android:visibility="gone"
+            tools:visibility="visible"/>
+
+        <TextView
+            android:id="@+id/tv_members_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:padding="@dimen/item_card_members_text_padding"
+            android:textColor="@color/pink01"
+            android:textSize="@dimen/item_card_members_text_size"
+            android:visibility="gone"
+            tools:text="Members Name" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+    <!--END-->

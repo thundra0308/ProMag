@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:foreground="?attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="50dp"
+        app:cardCornerRadius="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivboardimage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:contentDescription="image"
+            android:src="@drawable/ic_nav_user"
+            app:civ_border_color="@color/black"
+            app:civ_border_width="1dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/pink01"
+                android:textSize="18sp"
+                tools:text="Board Name" />
+
+            <TextView
+                android:id="@+id/tvcreatedby"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/pink2"
+                android:textSize="18sp"
+                tools:text="Created By" />
+        </LinearLayout>
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

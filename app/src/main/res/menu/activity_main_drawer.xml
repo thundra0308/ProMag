@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background = "@color/black"
+    >
+    <group android:checkableBehavior="single"
+        android:background="@color/black"
+        >
+        <item
+            android:id="@+id/myprof"
+            android:icon="@drawable/ic_baseline_assignment_ind_24"
+            android:title="My Profile"/>
+        <item
+            android:id="@+id/navsignout"
+            android:icon="@drawable/ic_user_sign"
+            android:title="SIgn Out"/>
+    </group>
+</menu>

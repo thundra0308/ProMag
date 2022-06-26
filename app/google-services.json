@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "15002790974",
+    "project_id": "promag-35b0d",
+    "storage_bucket": "promag-35b0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15002790974:android:988a9e24d0a63cb5e7356f",
+        "android_client_info": {
+          "package_name": "limbo.mrvoid.promag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15002790974-qpu79h3hl9ljt1o13or9ssacspn9saeu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD--IiWlRD0JdnNBQ11YfM_U2FVkVaWDtY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15002790974-qpu79h3hl9ljt1o13or9ssacspn9saeu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
