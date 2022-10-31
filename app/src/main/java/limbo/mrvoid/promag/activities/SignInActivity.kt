@@ -45,6 +45,7 @@ class SignInActivity : BaseActivity() {
                     task->
                 hideProgressDialog()
                 if(task.isSuccessful) {
+                    startActivity(Intent(this@SignInActivity,MainActivity::class.java))
                     FirestoreClass().loadUserData(this)
                 } else {
                     Toast.makeText(this,task.exception!!.message.toString(),Toast.LENGTH_LONG).show()

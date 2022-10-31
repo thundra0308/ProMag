@@ -13,7 +13,7 @@
           <option name="noReflect" value="true" />
           <option name="moduleName" value="app_debug" />
           <option name="languageVersion" value="1.7" />
-          <option name="apiVersion" value="1.7" />
+          <option name="apiVersion" value="1.6" />
           <option name="pluginOptions">
             <array />
           </option>

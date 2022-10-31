@@ -83,7 +83,6 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
             .centerCrop()
             .placeholder(R.drawable.ic_nav_user)
             .into(findViewById<CircleImageView>(R.id.hdoden))
-
         val name = findViewById<TextView>(R.id.tvusername)
         name.text = user.name
         if(readBoardList) {
